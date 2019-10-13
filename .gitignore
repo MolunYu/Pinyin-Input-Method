@@ -1,0 +1,4 @@
+data/sina_news_gbk/*.txt
+data/*.json
+data/*.txt
+.idea/
