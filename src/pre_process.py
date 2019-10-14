@@ -33,8 +33,8 @@ with open("../data/pinyin2word/pinyin2word.txt", mode="r") as source:
     pinyin2word = dict()
 
     for line in source.readlines():
-        element = line[:-1].split(" ")
-        pinyin2word[element[0]] = element[1:]
+        line = line[:-1].split(" ")
+        pinyin2word[line[0]] = [x for x in line[1:] if x in char2freq.keys()]
 
     with open("../data/pinyin2word.json", mode="w") as target:
         json.dump(pinyin2word, target)
