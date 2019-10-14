@@ -32,9 +32,12 @@ with open("../data/dataset.txt", mode="r") as source:
 with open("../data/pinyin2word/pinyin2word.txt", mode="r") as source:
     pinyin2word = dict()
 
+    with open("../data/pinyin2word/1st_2nd_word.txt", mode="r") as src:
+        common_word = set(src.read())
+
     for line in source.readlines():
         line = line[:-1].split(" ")
-        pinyin2word[line[0]] = [x for x in line[1:] if x in char2freq.keys()]
+        pinyin2word[line[0]] = [x for x in line[1:] if x in char2freq.keys() and x in common_word]
 
     with open("../data/pinyin2word.json", mode="w") as target:
         json.dump(pinyin2word, target)
