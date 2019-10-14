@@ -16,23 +16,27 @@ def get_porb(x1, x2):
 
 
 def viterbi(sentence):
-    cells_2d = [[ViterbiCell(v) for v in pinyin2word[x]] for x in sentence]
-    if len(sentence) == 1:
-        return sorted(pinyin2word[sentence[0]], key=lambda x: char2freq[x])[-1]
+    try:
+        cells_2d = [[ViterbiCell(v) for v in pinyin2word[x]] for x in sentence]
+    except KeyError:
+        return "PinyinError: check pinyin and make sure sequence is separated by space correctly"
+    else:
+        if len(sentence) == 1:
+            return sorted(pinyin2word[sentence[0]], key=lambda x: char2freq[x])[-1]
 
-    for cell in cells_2d[0]:
-        cell.sequence = cell.val
+        for cell in cells_2d[0]:
+            cell.sequence = cell.val
 
-    for i in range(1, len(cells_2d)):
-        cur_cells = cells_2d[i]
-        pre_cells = cells_2d[i - 1]
+        for i in range(1, len(cells_2d)):
+            cur_cells = cells_2d[i]
+            pre_cells = cells_2d[i - 1]
 
-        for cur in cur_cells:
-            all_probs = [pre.prob * get_porb(pre.val, cur.val) for pre in pre_cells]
-            pre_index, cur.prob = sorted(enumerate(all_probs), key=lambda x: x[1])[-1]
-            cur.sequence = pre_cells[pre_index].sequence + cur.val
+            for cur in cur_cells:
+                all_probs = [pre.prob * get_porb(pre.val, cur.val) for pre in pre_cells]
+                pre_index, cur.prob = sorted(enumerate(all_probs), key=lambda x: x[1])[-1]
+                cur.sequence = pre_cells[pre_index].sequence + cur.val
 
-    return sorted(cells_2d[-1], key=lambda x: x.prob)[-1].sequence
+        return sorted(cells_2d[-1], key=lambda x: x.prob)[-1].sequence
 
 
 with open("../data/pinyin2word.json", mode="r") as source:
