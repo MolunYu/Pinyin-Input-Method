@@ -13,7 +13,7 @@ def viterbi(sentence):
     try:
         cells_2d = [[ViterbiCell(v) for v in pinyin2word[x]] for x in sentence]
     except KeyError:
-        return "PinyinError: check pinyin and make sure sequence is separated by space correctly"
+        return "PinyinError: check pinyin and space: {}".format(sentence)
     else:
         if len(sentence) == 1:
             return sorted(pinyin2word[sentence[0]], key=lambda x: char2freq[x])[-1]

@@ -54,7 +54,7 @@ cui ´â ´Þ ´á Ë¥ ´ã ´ß éÁ ë¥ ´Ý ´ä è­ ÝÍ ´à ßý ã² ö¿
 cun ¶× ñå ´æ ââ ´ç ´å
 cuo í½ ëâ ðî ïó ´é õã õº ´ì ´ë ØÈ ´è ´í ï± ´ê ðû áÏ
 da ´ð ´ó æ§ ´î ÞÇ ñ× ßÕ ´ñ ÷² ´ï ðã óÎ í³ µ¬ ´ò àª ÷° âò
-dai ß° µ¡ åÊ ´ý é¦ ´ô ´õ ´ù ´ü ´þ Ú± ß¾ ææ ´ö çª ÷ì ´ó çé ´û ´÷ á· ´ú ´ø Ü¤
+dai ß° µ¡ åÊ ´ý é¦ ´ô ´õ ´ù ´ü ´þ Ú± ß¾ ææ ´ö çª ÷ì çé ´û ´÷ á· ´ú ´ø Ü¤
 dan µ¢ µ¯ µ­ µ§ å£ óì µ¦ µ¥ µª ðã íñ µ® µ¨ êæ à¢ µ£ éé µ« Úà µ© ëþ Ê¯ ð÷ Øé µ¤ ñõ µ¬ ÙÙ µ° ÝÌ
 dang µµ í¸ µ³ µ´ µ² îõ å´ ÚÔ ÝÐ ÛÊ µ± ñÉ
 dao µ¸ µ» µÀ µ· ë® àü ìâ ß¶ µ½ ôî µ¿ ØÖ âá µ¶ µ¼ µÁ µ¹ µ¾ µº
@@ -93,7 +93,7 @@ gai ê® ¸Ç Ø¤ ¸Æ êà ½æ Úë ¸Ä Ûò ëÜ ¸È ¸Å ¸Ã
 gan ¸É í· ÜÕ ß¦ ôû ÞÏ ä÷ äÆ ¸Ï ðá éÏ êº ¸Ò ¸Ì ¸Í ãï Ç¬ ¸Ê ¸Ñ Ûá ¸Ð ç¤ ¸Î ¸Ë ¸Ó
 gang ¸Ö ¸Ü óà ¸Ù ¸Õ ¸× ¸Ô ¸Ø ¿¸ í° ¸Û ¸Ú î¸
 gao ¸á ¸æ Þ» ¸ã ¸ä éÀ ¸Þ éÂ ¸à ¸â çÉ ï¯ ê½ ¸Ý Øº ¸ß Û¬ Ú¾ ¸å
-ge ¸è æü ÷À ¸ï ¸ð ¸ñ ¸ò ñË ¸Ç ò´ ºÏ àÃ ô´ ¿© ëõ ÒÙ ¸ç ¸ë ¸ó ¸÷ ò¢ Øî ë¡ ÛÁ íÑ ¸î Üª ¸ì ¸ö ÛÙ ïÓ ¸é ¸ê ¸õ ¸ô Øª ¸í
+ge ¸è æü ÷À ¸ï ¸ð ¸ñ ¸ò ñË ¸Ç ò´ àÃ ô´ ¿© ëõ ÒÙ ¸ç ¸ë ¸ó ¸÷ ò¢ Øî ë¡ ÛÁ íÑ ¸î Üª ¸ì ¸ö ÛÙ ïÓ ¸é ¸ê ¸õ ¸ô Øª ¸í
 gei ¸ø
 gen ¸ù ¸ú ßç Ý¢ ôÞ Ø¨
 geng ¹£ ¸ý âÙ ¸û ¹¢ öá ¾± ç® ¸þ ¹¡ ßì ¸ü
@@ -131,12 +131,12 @@ jia ëÎ óÕ Û£ ¼Ù ¼Ô ¼Ð ïØ ¼× åÈ ¼Ý ¼Û áµ ôÂ ¼Ï ñÊ ¼Ø ¼Ó îò ¼Õ õÊ í¢ Þ× ¼Ñ Ýç Ù¤ ¼
 jian ½¢ ½¤ ½¦ ÷µ ëì ¼÷ ÝÑ çÌ àî ¼ø ¼è óÈ ¼ö ¼ê ½¥ ¼û ¼ù êù õÂ ¼ç ê¯ ½¡ íú ôå ¼ú ¼í ¼ã ïµ ½£ ¼ï êð ½§ ¼ô Ç³ ë¦ ¼ý ¼þ ¼ó Ýó å¿ ¼é öä ¼ë ðÏ ¼î äÕ ê§ õÝ ¼ü ¼ì ¼ò ¼ñ ¼õ ¼â ÚÙ ÙÔ ÚÉ ¼ß ¼á ¼ð èÅ åÀ é¥ ¼à ½¨ ¼å ¼æ ¼ä Þö ñÐ
 jiang ôÝ ½­ ½« êñ ñð Ç¿ ½° ç­ ôø ¸Û ½´ çÖ ½² ½¯ ½± ½¬ ½ª ½³ ½® Üü ä® íä ½µ ½©
 jiao ½Ç ½» ½½ ÞØ òÔ Ù® ½Å ¾õ ½Ì ½Î ë¸ ½É ½¶ õÓ ½È ½¿ ð¨ ½¹ ½Ê æ¯ ½¼ ðÔ áè õ´ ÙÕ ½Ã á½ ½º Ü´ ½Ð àÝ ½À ½Ï ½Á öÞ Ð£ ½Æ æù ½Â äÐ ½Í ½Ä ½Ë ½Ñ ½· ½¸ ½¾ Üú
-jie Úµ ½å öÚ ½Ú ½Ö ½Ò àµ ½æ ½× ½ì ½Ý ¼Û ½ä æÝ ½Ô ½Ü ñÊ ½â ½à ò» ½Û æ¼ Þ× ½è ½Ø ôÉ ½Ù ½á Úà ½ß ½ê ò¡ ßâ ½ã ÷º íÙ ÙÊ à® ¿¬ Ú¦ ½ë ½Ó ½é èî ½Õ ¼Ò ½ç ðÜ ½Þ
+jie Úµ ½å öÚ ½Ú ½Ö ½Ò àµ ½æ ½× ½ì ½Ý ¼Û ½ä æÝ ½Ô ½Ü ñÊ ½â ½à ò» ½Û æ¼ Þ× ½è ½Ø ôÉ ½Ù ½á Úà ½ß ½ê ò¡ ßâ ½ã ÷º íÙ ÙÊ à® ¿¬ Ú¦ ½ë ½Ó ½é èî ½Õ ½ç ðÜ ½Þ
 jin éÈ ½î ½ø Úá âÛ ½ô àä êî êá çÆ èª âË ½û ½ù îÄ ½þ Ý£ ½ú ½ó ½ï ¾¢ ¾¡ ñæ ½ð ñÆ æ¡ ½ò ½ñ ½ý ½÷ ÝÀ ½ö ½í ½ü ½õ
 jing ¾¦ ¾® ¾¹ æº ¾µ ¾º ¾¶ ¾¸ Úå ëæ ¾­ ¾¬ ¾¥ ¾· ¾² ¾ª ¾³ ¾¨ Ý¼ ö¦ ¾± ¾© ¾§ ØÙ ¾° åÉ ãþ ìº ¾« ¾» ¾¢ ¾´ ëÂ ÙÓ ¾¯ â° ¾¤ óä ã½ ëÖ åò ¾£
 jiong ¾½ Øç ìç åÄ ¾¼ êÁ
 jiu ¾Â õí ¾Ã èê ¾Æ ðÕ ¾Á ¾È ¾Ë ãÎ ÙÖ ð¯ ¾Ê ¾Ç ¾Ì ¾¾ èÑ ¾É ¾Ä ¾Î ¾Å ôñ à± ÷Ý ¾¿ ¾Í ¾À
-ju ¾á ¾å ³µ ¾Ó ¾à é° ï¸ ¾ã ¾æ éÙ ¾Ú ÜÄ êø èÛ ñÕ ¾Ò ¾Ø ÷¶ ¾Ô ¾Ï Üì ¾× ¹ñ ì« ¾ç õá ÙÆ ½Û ÇÒ ñÀ ¾Ü ¾Õ Çþ ¾Þ ¾Ý Úª õ¶ ¾â é· ôò öÄ ÜÚ ¾Ñ ¾ä è¢ ¾Ö ö´ ¾Ð öÂ ¾Ù åá ¾ß îÒ ¾Û åð é§ Þä
+ju ¾á ¾å ¾Ó ¾à é° ï¸ ¾ã ¾æ éÙ ¾Ú ÜÄ êø èÛ ñÕ ¾Ò ¾Ø ÷¶ ¾Ô ¾Ï Üì ¾× ¹ñ ì« ¾ç õá ÙÆ ½Û ÇÒ ñÀ ¾Ü ¾Õ Çþ ¾Þ ¾Ý Úª õ¶ ¾â é· ôò öÄ ÜÚ ¾Ñ ¾ä è¢ ¾Ö ö´ ¾Ð öÂ ¾Ù åá ¾ß îÒ ¾Û åð é§ Þä
 juan ïÃ ¾í ä¸ îÃ ïÔ áú Û² èð öÁ ¾î È¦ ¾è ¾ë ¾ì ¾ê ¾é
 jue ½Ç ¾ï ¾ò ìß ïã ½Å ¾÷ ¾ö ÚÜ ¾õ àå õû áÈ õê Øã Þ§ â± ØÊ ÛÇ éÓ ½À èö ¾ó ¾ð æÞ çå àÙ ¾ô ÷¬ ¾ñ ¾ø
 jun óÞ ñä ¿¡ ¾ý ¿¥ ¿¢ ¾þ ¿¤ ¾ü ¿£ ¾ù öÁ ¾ú ¹ê ¾û ÷å ÞÜ
@@ -298,7 +298,7 @@ shua à§ Ë¢ Ë£
 shuai ó° Ë¥ Ë§ Ë¤ Ë¦ ÂÊ
 shuan äÌ ãÅ Ë¨ Ë©
 shuang Ë« ãñ æ× Ëª Ë¬
-shui Ë­ Ëµ Ë¯ Ë® ãß Ë°
+shui Ë­ Ë¯ Ë® Ë°
 shun Ë± Ë´ Ë² Ë³
 shuo Ë¸ îå Ë¶ åù Ëµ Êý Ë· éÃ Þ÷ Ýô
 si æá ËÄ ËÈ Ùî äù ËÀ Ê³ ãô ôé ìë ð¸ óÓ ÛÌ Ëº òÏ ßÐ æ¦ ËÃ Ë¿ ËÁ Ù¹ Ë¼ ËÅ Ë» çÁ ïÈ ñê ËÂ ËÆ æù Ë¾ ËÇ ØË ãá Ë½ Ë¹

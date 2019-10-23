@@ -6,6 +6,6 @@ print("This a program tranform pinyin sequence into sentence!\n"
 
 sentence = input("In: ")
 while sentence != "exit":
-    print("Out: " + viterbi(sentence.strip().split(" ")), end="\n\n")
+    print("Out: " + viterbi(sentence.lower().strip().split(" ")), end="\n\n")
     sentence = input("In: ")
 
