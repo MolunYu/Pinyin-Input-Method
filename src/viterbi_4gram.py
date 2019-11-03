@@ -31,7 +31,7 @@ def get_prob_4gram(x123, x4):
         return get_prob_3gram(x2 + x3, x4)
 
 
-def viterbi_4gram(sentence):
+def viterbi(sentence):
     try:
         cells_2d = [[ViterbiCell(v) for v in pinyin2word[x]] for x in sentence]
     except KeyError:

@@ -1,29 +1,36 @@
-from viterbi_3gram import viterbi_3gram
-from multiprocessing import Pool
+from viterbi_3gram import viterbi
+from bar import bar
+import argparse
 
 
 def count_same(s1, s2):
     count = 0
-    s1 = viterbi_3gram(s1.strip().lower().split(" "))
+    s1 = viterbi(s1.strip().lower().split(" "))
     for i, j in zip(s1, s2.strip()):
         if i == j:
             count += 1
-    if len(s1) - count > 3:
-        print(s1.strip(), s2.strip())
 
     return count
 
 
-if __name__ == '__main__':
-    pool = Pool()
-    with open("../data/pinyin_test/s_in.txt", mode="r", encoding="utf-8") as source:
+def get_acc(src, dst):
+    with open(src, mode="r", encoding="utf-8") as source:
         pinyin = source.readlines()
 
-    with open("../data/pinyin_test/s_out.txt", mode="r", encoding="utf-8") as source:
+    with open(dst, mode="r", encoding="utf-8") as source:
         sentence = source.readlines()
 
-    correct = pool.starmap(count_same, zip(pinyin, sentence))
-    pool.close()
-    pool.join()
+    correct = 0
+    for i, j in bar(zip(pinyin, sentence)):
+        correct += count_same(i, j)
+
     total = sum([len(i.strip()) for i in sentence])
-    print(sum(correct) / total)
+    return correct / total
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", type=str, required=True, help="input file path")
+    parser.add_argument("--ans", type=str, help="answer file path")
+    args = parser.parse_args()
+
+    print(get_acc(args.input, args.ans))

@@ -1,4 +1,4 @@
-from viterbi import viterbi
+from viterbi_3gram import viterbi
 import argparse
 
 parser = argparse.ArgumentParser()

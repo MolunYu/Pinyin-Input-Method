@@ -2,7 +2,7 @@ import json
 import re
 from collections import Counter, defaultdict
 import time
-from tqdm import tqdm
+from bar import bar
 
 
 def get_news(lines):
@@ -10,7 +10,7 @@ def get_news(lines):
     p = ',|\.|/|;|\'|`|\[|\]|<|>|\?|:|"|\{|\}|\~|!|@|#|\$|%|\^|&|\(|\)|-|=|\_|\+|，|。|、|；|：' \
         '|‘|\'|【|】|·|！| |…|（|）|[a-z]|[A-Z]|[0-9]'
 
-    for line in tqdm(lines):
+    for line in bar(lines):
         news = json.loads(line.strip())
         title = news['title']
         text = news['html']
@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     # get pure lines
     lines = list()
-    for path in tqdm(paths):
+    for path in bar(paths):
         with open(path, mode="r", encoding="gbk") as source:
             lines.extend(source.readlines())
 
@@ -46,7 +46,7 @@ if __name__ == '__main__':
     word_freq = defaultdict(int)
     words_list = ((line[i] + line[i + 1] for i in range(len(line) - 1)) for line in pure_lines)
 
-    for words in tqdm(words_list):
+    for words in bar(words_list):
         for word in words:
             word_freq[word] += 1
     del words_list
