@@ -12,6 +12,9 @@ a simple pinyin input method implemented in python
 |-- Pinyin-Input-Method
     |-- data
         |-- sina_news_gbk
+            |-- 2016-01.txt
+            ...
+            |-- 2016-09.txt
 ``` 
 3. Data preprocessing 
 ```bash
@@ -25,7 +28,7 @@ python pre_gram3
 python pre_gram4
 ```
 5. single_pinyin2word.json has a manual way to handle multi-tone word, 
-if you don't need it, change with pinyin2word.py in viterbi.py, viterbi_gram3.py, viterbi_gram4.py
+if you don't need it, change with pinyin2word.json in viterbi.py, viterbi_gram3.py, viterbi_gram4.py
 at **with open("../data/single_pinyin2word.json", mode="r") as source:**
 
 ## Usage
