@@ -29,7 +29,15 @@ python pre_gram4.py
 ```
 5. Single_pinyin2word.json has a manual way to handle multi-tone words, 
 if you don't need it, change with pinyin2word.json in viterbi.py, viterbi_gram3.py, viterbi_gram4.py
-at "**with open("../data/single_pinyin2word.json", mode="r") as source:**"
+```python
+# multi-tone word
+with open("../data/single_pinyin2word.json", mode="r") as src:
+    pinyin2word = json.load(src)
+# normal
+with open("../data/pinyin2word.json", mode="r") as src:
+    pinyin2word = json.load(src)
+```
+
 
 ## Usage
 1. Transform pinyin to Chinese character
