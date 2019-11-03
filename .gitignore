@@ -2,4 +2,4 @@
 data/sina_news_gbk/*.txt
 data/*.json
 src/*.txt
-
+!data/single_pinyin2word.json
