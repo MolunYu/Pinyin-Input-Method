@@ -24,12 +24,12 @@ python pre_process.py
 4. Option: 3-gram and 4-gram required
 ```bash
 cd ./src
-python pre_gram3
-python pre_gram4
+python pre_gram3.py
+python pre_gram4.py
 ```
-5. single_pinyin2word.json has a manual way to handle multi-tone word, 
+5. Single_pinyin2word.json has a manual way to handle multi-tone words, 
 if you don't need it, change with pinyin2word.json in viterbi.py, viterbi_gram3.py, viterbi_gram4.py
-at **with open("../data/single_pinyin2word.json", mode="r") as source:**
+at "**with open("../data/single_pinyin2word.json", mode="r") as source:**"
 
 ## Usage
 1. Transform pinyin to Chinese character
