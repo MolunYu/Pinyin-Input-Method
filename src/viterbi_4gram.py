@@ -67,18 +67,23 @@ def viterbi(sentence):
 
         return sorted(cells_2d[-1], key=lambda x: x.prob)[-1].sequence
 
+print("Model loading ...")
+print("load pinyin2word ...")
+with open("../data/single_pinyin2word.json", mode="r") as source:
+    pinyin2word = json.load(source)
 
-with open("../data/single_pinyin2word.json", mode="r") as src:
-    pinyin2word = json.load(src)
+print("load char2freq ...")
+with open("../data/char2freq.json", mode="r") as source:
+    char2freq = json.load(source)
 
-with open("../data/char2freq.json", mode="r") as src:
-    char2freq = json.load(src)
+print("load word2freq ...")
+with open("../data/word2freq.json", mode="r") as source:
+    word2freq = json.load(source)
 
-with open("../data/word2freq.json", mode="r") as src:
-    word2freq = json.load(src)
-
+print("load three2freq ...")
 with open("../data/three2freq.json", mode="r") as src:
     three2freq = json.load(src)
 
+print("load four2freq ...")
 with open("../data/four2freq.json", mode="r") as src:
     four2freq = json.load(src)

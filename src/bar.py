@@ -1,5 +1,4 @@
 import sys
-import time
 
 
 def bar(obj, width=50):
@@ -12,7 +11,7 @@ def bar(obj, width=50):
             use_num = int(present * width)
             space_num = int(width - use_num)
 
-            sys.stdout.write("\r[{}{}]{:.1f}%".format(use_num * "#", space_num * " ", present * 100))
+            sys.stdout.write("\r[{}{}]{}%".format(use_num * "#", space_num * " ", round(present * 100)))
             sys.stdout.flush()
     else:
         for i, j in enumerate(obj):
@@ -23,6 +22,5 @@ def bar(obj, width=50):
                 sys.stdout.write("\r{}".format(((i // 100) % 5 + 1) * "."))
                 sys.stdout.flush()
 
-    sys.stdout.write("\r[{}]100%\n".format(50 * "#"))
+    sys.stdout.write("\r[{}]100%\n".format(width * "#"))
     sys.stdout.flush()
-
