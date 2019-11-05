@@ -1,5 +1,6 @@
 # Pinyin-Input-Method
-a simple pinyin input method implemented in python
+a simple pinyin input method implemented in python  
+https://github.com/MolunYu/Pinyin-Input-Method
 
 ## Requirements
 * python3
