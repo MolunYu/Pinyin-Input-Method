@@ -14,7 +14,7 @@ with open(args.input, mode="r") as source:
         result.append(sentence + "\n")
 
     if args.output:
-        with open("output.txt", mode="w") as target:
+        with open(args.output, mode="w", encoding="utf-8") as target:
             target.writelines(result)
 
 
