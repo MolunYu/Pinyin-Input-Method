@@ -28,7 +28,7 @@ python pre_gram3.py
 python pre_gram4.py
 ```
 5. Single_pinyin2word.json has a manual way to handle multi-tone words, 
-if you don't need it, change with pinyin2word.json in viterbi.py, viterbi_gram3.py, viterbi_gram4.py
+if you don't need it, change with pinyin2word.json in viterbi_2gram.py, viterbi_gram3.py, viterbi_gram4.py
 ```python
 # multi-tone word
 with open("../data/single_pinyin2word.json", mode="r") as src:
@@ -60,14 +60,14 @@ python acc.py --input=INPUT_FILE_PATH --ans=ANSWER_FILE_PATH
 4. Change n-gram model in pinin.py, pinyin_interact.py, acc.py.
 ```python
 # 2-gram
-from viterbi import viterbi
+from viterbi_2gram import viterbi
 # 3-gram
 from viterbi_3gram import viterbi
 # 4-gram
 from viterbi_4gram import viterbi
 ```
 ## Baseline
-1. 2-gram: ~85%
+1. 2-gram: ~86%
 2. 3-gram: ~90%
 3. 4-gram: ~91%
 

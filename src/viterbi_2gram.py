@@ -12,7 +12,7 @@ def get_prob(x1, x2):
     if x1 + x2 in word2freq:
         return word2freq[x1 + x2] / char2freq[x1]
     else:
-        return char2freq[x2] * 1e-10
+        return char2freq[x2] * 1e-12
 
 
 def viterbi(sentence):

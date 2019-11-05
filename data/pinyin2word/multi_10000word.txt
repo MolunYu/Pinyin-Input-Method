@@ -1,6 +1,6 @@
 综	2	zeng	zong
 陆	1	lu	liu
-射	3	yi	ye
+射	3	yi	ye she
 缴	1	jiao	zhuo
 价	1	jia	jie
 柜	1	gui	ju
@@ -101,7 +101,7 @@
 万	1	wan	mo
 绿	2	lu	lv
 炮	2	bao	pao
-都	1	du	dou
+都	0	du	dou
 堡	3	pu	bu
 弄	1	nong	long
 俩	1	lia	liang
