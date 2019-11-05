@@ -1,4 +1,4 @@
-from viterbi_2gram import viterbi
+from viterbi_3gram import viterbi
 import argparse
 from bar import bar
 
