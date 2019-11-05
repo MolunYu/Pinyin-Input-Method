@@ -21,21 +21,10 @@ Pinyin-Input-Method
 │  │  word2freq.json    //二元词篇
 │  │  
 │  ├─pinyin2word
-│  │      1st_2nd_word.txt
-│  │      input.txt
-│  │      multi_10000word.txt
-│  │      multi_word.xlsx
-│  │      output.txt
-│  │      pinyin2word.txt
-│  │      README.txt
+│  │      .....
 │  │      
 │  ├─pinyin_test    //测试文件目录(in-ans为一对测试数据)
-│  │      common_ans.txt
-│  │      common_in.txt
-│  │      mini_ans.txt
-│  │      mini_in.txt
-│  │      news_ans.txt
-│  │      news_in.txt
+│  │      .....
 │  │      
 │  └─sina_news_gbk
 │          下载地址.txt
