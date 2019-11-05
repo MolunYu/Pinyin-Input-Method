@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 class ViterbiCell:
@@ -67,6 +68,7 @@ def viterbi(sentence):
 
         return sorted(cells_2d[-1], key=lambda x: x.prob)[-1].sequence
 
+
 print("Model loading ...")
 print("load pinyin2word ...")
 with open("../data/single_pinyin2word.json", mode="r") as source:
@@ -77,13 +79,16 @@ with open("../data/char2freq.json", mode="r") as source:
     char2freq = json.load(source)
 
 print("load word2freq ...")
+sys.stdout.flush()
 with open("../data/word2freq.json", mode="r") as source:
     word2freq = json.load(source)
 
 print("load three2freq ...")
+sys.stdout.flush()
 with open("../data/three2freq.json", mode="r") as src:
     three2freq = json.load(src)
 
 print("load four2freq ...")
+sys.stdout.flush()
 with open("../data/four2freq.json", mode="r") as src:
     four2freq = json.load(src)

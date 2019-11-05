@@ -1,5 +1,5 @@
 import json
-
+import sys
 
 class ViterbiCell:
     def __init__(self, val, sequence=""):
@@ -49,5 +49,6 @@ with open("../data/char2freq.json", mode="r") as source:
     char2freq = json.load(source)
 
 print("load word2freq ...")
+sys.stdout.flush()
 with open("../data/word2freq.json", mode="r") as source:
     word2freq = json.load(source)
